@@ -1,0 +1,16 @@
+[package]
+name = "air-ccs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+p3-air = { git = "https://github.com/Plonky3/Plonky3.git", rev="1898da22fc5aca78f55925efb158d65196f4fc7b" }
+p3-uni-stark = { git = "https://github.com/Plonky3/Plonky3.git", rev="1898da22fc5aca78f55925efb158d65196f4fc7b" }
+p3-field={ git = "https://github.com/Plonky3/Plonky3.git", rev="1898da22fc5aca78f55925efb158d65196f4fc7b" }
+p3-matrix={ git = "https://github.com/Plonky3/Plonky3.git", rev="1898da22fc5aca78f55925efb158d65196f4fc7b" }
+rand = "0.8.5"
+p3_frontend = { path="/Users/pierredm/repos/forks/dmpierre/halo2/p3_frontend/"}
+ark-bn254 = "0.4.0"
+ark-ff = "0.4.2"
